@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Birth-IL</title>
+
+    <!-- icon -->
+    <link href="img/Baby_icon.png" rel="icon">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS Libraries -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Top Bar Start -->
+    <div class="top-bar d-none d-md-block">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="top-bar-left">
+                        <div class="text">
+                            <div class="timeClock" id="time"></div>
+                            <i class="far fa-clock"></i>
+                            <p>ראשון - חמישי</p>
+                            <h2>| 8:00 - 17:00</h2>
+                        </div>
+                        <div class="text">
+                            <i class="fa fa-phone-alt"></i>
+                            <h2>09-8565884</h2>
+                            <p>שירות לקוחות</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="top-bar-right">
+                        <div class="social">
+                            <a href="https://www.facebook.com/groups/1682930805342933" target="blank"><i
+                                    class="fab fa-facebook-f"></i></a>
+                            <a href="https://www.youtube.com/watch?v=_0NPp28wfbQ" target="blank"><i
+                                    class="fab fa-youtube"></i></a>
+                            <a href="https://www.instagram.com/leidaraka/" target="blank"><i
+                                    class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Top Bar End -->
+
+    <!-- Nav Bar Start -->
+    <div class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container-fluid">
+            <a href="index.html" class="navbar-brand">Birth IL</a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                <div class="navbar-nav ml-auto">
+                    <a id="contactPage" href="contact.html" class="nav-item nav-link">יצירת קשר</a>
+                    <a id="homePage" href="index.html" class="nav-item nav-link active">דף הבית</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Nav Bar End -->
+
+    <!-- Hero Start -->
+    <div class="hero">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-sm-12 col-md-6">
+                    <div class="hero-text">
+                        <h1>הכל בשביל היולדת</h1>
+                        <p>
+                            הפורטל הישראלי בנושאי הריון ולידה, אנו מזמינים אותך לקבל מידע באתרנו על תקופת ההריון והלידה,
+                            ולהירגע לקראת הנולד.
+                        </p>
+                        <div class="hero-btn">
+                            <a class="btn go-to-calculator" href="#calculator">מחשבון הריון</a>
+                            <a class="btn" href="#dis30">להכין את קן</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 d-none d-md-block">
+                    <div class="hero-image">
+                        <img src="img/babyWeb.png" alt="Hero Image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hero End -->
+
+    <!-- About Start -->
+    <div id="calculator" class="about wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5 col-md-6">
+                    <div class="about-img">
+                        <img src="img/dadtCal.png" alt="Image">
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-6">
+                    <div class="section-header text-left">
+                        <p>חישוב נתונים</p>
+                        <h2>מחשבון הריון</h2>
+                    </div>
+                    <div class="about-text">
+                        <label for="start">הכניסי תאריך</label>
+                        <br>
+                        <input type="date" id="start" name="trip-start" value="2021-01-16" min="2020-01-01"
+                            max="2021-08-02">
+                        <br>
+                        <button id="btnCalc" class="calcBorth" href="#"><a href="#result" target="_self">ליחצי כאן לחישוב</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+    <div class="result" id="result">
+        <h2 class="resule-h2">לפי הנתונים שהכנסת:</h2>
+        <div id="containerDiv" class="containerDiv"></div>
+    </div>
+    <hr class="lineResult">
+    <!-- Fitness Start -->
+    <div class="service">
+        <div class="container">
+            <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+                <p>כושר ותזונה נכונה</p>
+                <h2>שמרי עליך ועל תינוק בריא</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.0s">
+                    <div class="service-item">
+                        <div class="service-icon">
+                            <i> <img class="ligthHealf" src="/img/light.png" alt=""></i>
+                        </div>
+                        <h3>חשוב לזכור</h3>
+                        <p>
+                            השאיפה בפעילות גופנית בזמן הריון אינה לשפר את הכושר הגופני <br> אלא לשמר את הכושר הקיים
+                            ולהקל על
+                            תהליך ההריון והלידה עצמה, יש למדוד ולשמור על קצב לב תקין</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="service-item active">
+                        <div class="service-icon">
+                            <i> <img class="yoga" src="/img/yoga-img.png" alt=""></i>
+                        </div>
+                        <h3>יוגה בתקופת ההריון</h3>
+                        <p>
+                            יוגה להריון מתאים לנשים בהריון החל משבוע 14 ועד תחילת הצירים ממש. תרגול יוגה בהריון מיטיב עם
+                            הגוף ובהחלט יכול למנוע מחושי הריון אופייניים ולמתן עד להעלים כאלה שכבר מורגשים</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="service-item">
+                        <div class="service-icon">
+                            <i> <img class="pregnantHealf" src="/img/pregnant-draw.png" alt=""></i>
+                        </div>
+                        <h3>מה קורה לגוף בזמן ההריון?</h3>
+                        <p>
+                            בזמן ההריון עוברים על הגוף שלך הרבה שינויים: 1: כמות הנוזלים עולה ונפח הדם גדל ב-50%-30%
+                            במנוחה. <br> 2: קצב הלב גבוה ב־10-6 פעימות בדקה <br> 3: זרימת הדם בוורידים איטית מהרגיל</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fitness End -->
+
+    <!-- Discount Start -->
+    <div id="dis30" class="discount wow zoomIn" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="section-header text-center">
+                <p>הנחה לחברי האתר</p>
+                <h2>קבלי <span>30%</span> על כל המוצרים לתינוק </h2>
+            </div>
+            <div class="container discount-text">
+                <p>
+                    משלוח מהיר לכל הארץ!
+                    הזמנות לאיזור גוש דן והסביבה
+                    שיתקבלו עד השעה 12:00
+                    יסופקו עד כניסת השבת
+                </p>
+                <h2>רשימת הקניות שלך</h2>
+            </div>
+            <div class="buyList">
+                <div id="myDIV" class="headerList">
+                    <input class="inputList" type="text" id="myInput" placeholder="הקלד כאן...">
+                    <span id="createNewElement" class="addButn">הוסיפי לרשימה</span>
+                </div>
+                <ul id="myUL">
+                    <li>מיטת תינוק</li>
+                    <li>שידת החתלה</li>
+                    <li>עגלה</li>
+                    <li>חזיות הנקה</li>
+                    <li>מושב בטיחות לרכב</li>
+                    <li>תיק החתלה</li>
+                </ul>
+            </div>
+            <div class="container discount-text">
+                <button id="clearBtn" class="btn">נקה רשימה</button>
+            </div>
+        </div>
+    </div>
+    <!-- Discount End -->
+
+    <!-- Footer Start -->
+    <div class="footer wow fadeIn" data-wow-delay="0.3s">
+        <div class="container-fluid">
+            <div class="container">
+                <div class="footer-info">
+                    <a href="index.html" class="footer-logo">Birth-IL</a>
+                    <div class="footer-menu">
+                        <p>09-8565884</p>
+                        <p>info@xxx.com</p>
+                    </div>
+                    <div class="footer-social">
+                        <a href="https://www.facebook.com/groups/1682930805342933" target="blank"><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.youtube.com/watch?v=_0NPp28wfbQ" target="blank"><i
+                                class="fab fa-youtube"></i></a>
+                        <a href="https://www.instagram.com/leidaraka/" target="blank"><i
+                                class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="container copyright">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p>&copy; <a href="#">A.N & S.C</a>, All Right Reserved.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <p>Designed By - A.N & S.C</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Java Script -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
