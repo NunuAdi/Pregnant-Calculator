@@ -9,7 +9,7 @@ This Project is a Simple JavaScript web application designed by CSS.
 The site also presents you with the tests required by the Clalit HMO track.
 
 ### `Supported`
-#### Web, Tablet
+#### Web browser , Tablet
 
 ## Live Application URL
 [Pregnant Calculator - אתר ההריון שלי](https://pregnant-calculator.netlify.app)
