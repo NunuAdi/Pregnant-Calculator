@@ -589,6 +589,11 @@ a:focus {
     color: #343148;
     background: #F7CAC9;
 }
+
+.dateCalculator {
+    padding: 3px 10px;
+}
+
 .result{
     display:none;
     position: relative;
@@ -630,11 +635,12 @@ a:focus {
 }
 
 .col-lg-7 .col-md-6 {
-    text-align: right;
+    text-align: center;
 }
 
 .about-text {
     float: left;
+    text-align: center;
 }
 
 .aboutUs .img{
@@ -777,6 +783,7 @@ a:focus {
 
 .discount .section-header {
     margin-bottom: 20px;
+    margin-left: 3%;
 }
 
 .discount .section-header p {
